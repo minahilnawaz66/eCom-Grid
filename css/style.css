@@ -18,10 +18,6 @@ Colors:
 */
 
 /* Medium Desktop  */
-@media (max-width: 1024px) {
-}
-
-/* Tablet */
 
 @media (max-width: 992px) {
 	.col.col-3,
@@ -84,6 +80,101 @@ Colors:
 	footer {
 		object-fit: fill;
 		background-color: var(--skyBlue);
+	}
+}
+
+@media (max-width: 993px) {
+	.col-1,
+	.col-2,
+	.col-3,
+	.col-4,
+	.col-5,
+	.col-6,
+	.col-7,
+	.col-8,
+	.col-9,
+	.col-10,
+	.col-11 {
+		width: 50%;
+	}
+
+	.card {
+		margin: 25px 0;
+	}
+
+	.footer {
+		height: 100%;
+	}
+
+	.slider {
+		margin: 0 !important;
+		padding: 0 !important;
+		width: 100% !important;
+	}
+
+	.navbar .nav li:not(:first-child) {
+		margin-left: 15px;
+	}
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+	.col,
+	.col-1,
+	.col-2,
+	.col-3,
+	.col-4,
+	.col-5,
+	.col-6,
+	.col-7,
+	.col-8,
+	.col-9,
+	.col-10,
+	.col-11,
+	.col-12 {
+		float: none;
+		width: 100%;
+	}
+
+	.card-image,
+	.card {
+		margin: 0;
+		width: 100%;
+	}
+
+	.card-overlay .card-body {
+		padding: 0;
+	}
+
+	.card-body .details,
+	.card-overlay .card-body,
+	.card-body .price {
+		margin: 10px 0;
+	}
+	.card-container .card-overlay .card-title {
+		padding: 5px 0;
+	}
+
+	.svg-image img {
+		padding-left: 0px;
+	}
+	.card-container {
+		width: 100%;
+	}
+	.running-bar {
+		display: none;
+	}
+	.promotionBar {
+		display: none;
+	}
+
+	.row {
+		align-items: center;
+		text-align: center;
+	}
+
+	a + p {
+		max-width: 100%;
 	}
 }
 
